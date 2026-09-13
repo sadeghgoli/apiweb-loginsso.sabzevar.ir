@@ -4407,25 +4407,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Paya_System\\.nuget\\packages\\": {}
+    "C:\\Users\\goli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\sso-login-service\\src\\SSOLoginService.Api\\SSOLoginService.Api.csproj",
+      "projectUniqueName": "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj",
       "projectName": "SSOLoginService.Api",
-      "projectPath": "D:\\project\\sso-login-service\\src\\SSOLoginService.Api\\SSOLoginService.Api.csproj",
-      "packagesPath": "C:\\Users\\Paya_System\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\sso-login-service\\src\\SSOLoginService.Api\\obj\\",
+      "projectPath": "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj",
+      "packagesPath": "C:\\Users\\goli\\.nuget\\packages\\",
+      "outputPath": "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Paya_System\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\goli\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://package-mirror.liara.ir/repository/nuget/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -4500,7 +4501,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

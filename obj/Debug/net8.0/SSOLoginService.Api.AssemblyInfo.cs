@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSOLoginService.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+924912c18adfeca54dce24a10bc9e8eae2a1dbf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0c48a068461220374f313d8423882e07e6c1c49")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSOLoginService.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSOLoginService.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
