@@ -4,6 +4,3 @@ publish/
 .vs/
 *.user
 *.suo
-*.dll
-*.pdb
-*.exe
