@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj": {}
+    "D:\\projects\\sajjadi\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj": {}
   },
   "projects": {
-    "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj": {
+    "D:\\projects\\sajjadi\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj",
+        "projectUniqueName": "D:\\projects\\sajjadi\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj",
         "projectName": "SSOLoginService.Api",
-        "projectPath": "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj",
-        "packagesPath": "C:\\Users\\goli\\.nuget\\packages\\",
-        "outputPath": "C:\\wwwroot\\sabzevar\\apiweb-loginsso.sabzevar.ir\\obj\\",
+        "projectPath": "D:\\projects\\sajjadi\\sabzevar\\apiweb-loginsso.sabzevar.ir\\SSOLoginService.Api.csproj",
+        "packagesPath": "C:\\Users\\Electera\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\sajjadi\\sabzevar\\apiweb-loginsso.sabzevar.ir\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\goli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Electera\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -38,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -88,6 +88,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +122,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
