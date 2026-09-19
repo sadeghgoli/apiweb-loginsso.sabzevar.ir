@@ -286,16 +286,13 @@ var app = builder.Build();
 
 #region Middleware Pipeline
 
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(options =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "SSO Login Service API v1");
-        options.RoutePrefix = "swagger";
-        options.DisplayRequestDuration();
-    });
-}
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "SSO Login Service API v1");
+    options.RoutePrefix = "swagger";
+    options.DisplayRequestDuration();
+});
 
 app.UseMiddleware<SecurityHeadersMiddleware>();
 app.UseRateLimiter();
